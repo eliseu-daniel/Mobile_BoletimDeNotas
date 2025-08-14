@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Calculo da Média:"
+        android:textAlignment="center"
+        android:textColor="@color/Rotulo"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:textColor="@color/Rotulo" />
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/CorLetraCaixa"
+        android:background="@color/CorFundoCaixa"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Disciplina"
+        android:textColor="@color/Rotulo"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtDisciplina"
+        android:textColor="@color/CorLetraCaixa"
+        android:background="@color/CorFundoCaixa"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nota1"
+        android:textColor="@color/Rotulo"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNota1"
+        android:textColor="@color/CorLetraCaixa"
+        android:background="@color/CorFundoCaixa"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nota2"
+        android:textColor="@color/Rotulo"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNota2"
+        android:textColor="@color/CorLetraCaixa"
+        android:background="@color/CorFundoCaixa"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantidade de Faltas"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/Rotulo"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtFalta"
+        android:textColor="@color/CorLetraCaixa"
+        android:background="@color/CorFundoCaixa"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCalcular"
+        android:text="Calcular Média"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNovo"
+        android:text="Novo Cálculo"
+        android:layout_margin="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Média da Disciplina:"
+        android:textColor="@color/Rotulo"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtMedia"
+        android:textColor="@color/CorLetraCaixa"
+        android:background="@color/CorFundoCaixa"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status:"
+        android:textColor="@color/Rotulo"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtStatus"
+        android:textColor="@color/CorLetraCaixa"
+        android:background="@color/CorFundoCaixa"
+        />
+
+</LinearLayout>
